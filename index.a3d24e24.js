@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded",function(){let e=document.getElementById("calendar"),t=document.getElementById("start-day-select"),n=document.getElementById("month-length-select");function a(){let a=t.value,d=n.value;e.className=`calendar calendar--start-day-${a} calendar--month-length-${d}`}t.addEventListener("change",a),n.addEventListener("change",a),a()});
+//# sourceMappingURL=index.a3d24e24.js.map
